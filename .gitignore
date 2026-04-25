@@ -1,0 +1,21 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit specific
+.streamlit/
+
+# Python / Mac System files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Data files (Optional, but good practice if the dataset is private)
+# If the evaluator needs to download the dataset from your repo, you can remove this line:
+# *.xlsx
